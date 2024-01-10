@@ -1,1 +1,112 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://onlinebillgenerator.in/assets/css/bootstrap.min.css');
+@import url('https://onlinebillgenerator.in/assets/css/main.css');
+
+
+#fuel-template p {
+    font-family: 'Press Start 2P', cursive !important;
+}
+
+.width_img {
+    width: 30%!important;
+}
+
+/* Styles for the sticky template-section */
+.template-section {
+    position: sticky;
+    top: 0;
+    height: calc(100vh - 70px); /* Adjust this value based on your layout, minus the header height if any */
+    /* overflow-y: auto; */
+}
+
+/* Additional styles to give the sticky section a background and adjust its appearance */
+.template-section {
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+/* Adjust the z-index to make sure the sticky section stays above other elements */
+.template-section {
+    z-index: 999;
+}
+
+.billlogo {
+    width: 80px;
+}
+.colRight {
+    text-align: right;
+}
+
+.backgroundtem2{
+    -webkit-print-color-adjust: exact;
+    width: 310px;
+    height: auto;
+    margin-top: 0px;
+    position: relative;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24.1px;
+}
+.backgroundtem3{
+
+    background-color: #f5f7f7 !important;
+    -webkit-print-color-adjust: exact;
+    width: 260px;
+    height: auto;
+    margin-top: 0px;
+    position: relative;
+    padding: 15px;
+}
+.newbodytem3 {
+    margin: 0;
+    margin-left: 8px;
+    height: 100%;
+    font-family: 'Press Start 2P', cursive !important;
+    font-size: 9.5px;
+    letter-spacing: -0.7px;
+    line-height: 1.2;
+    font-stretch: extra-condensed;
+}
+.side-logo-1 {
+    transform: rotate(270deg);
+    right: -70px;
+    width: 60%;
+    top: 100px;
+    position: absolute;
+    opacity: .35;
+    display: flex;
+}
+.side-logo-2 {
+    transform: rotate(270deg);
+    right: -70px;
+    width: 60%;
+    position: absolute;
+    opacity: .35;
+    top: 400px;
+    display: flex;
+}
+
+
+.bottom{
+    margin-top: 60px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.screenshotDiv {
+    width: 260px;
+}
+
+.template-background{
+
+    background-color: #f5f7f7 !important;
+    -webkit-print-color-adjust: exact;
+    width: 260px;
+    height: auto;
+    margin-top: 0px;
+    position: relative;
+    padding: 15px;
+}
+  
